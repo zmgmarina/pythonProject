@@ -5,24 +5,66 @@
 # 25, 5 -> да
 # 8,9 -> нет
 
-number1 = int(input('Введите первое число '))
-number2 = int(input('Введите второе число '))
-if number1 ** 2 == number2 or number2 ** 2 == number1:
-    print('да')
-else:
-    print('нет')
+# number1 = int(input('Введите первое число '))
+# number2 = int(input('Введите второе число '))
+# if number1 ** 2 == number2 or number2 ** 2 == number1:
+#     print('да')
+# else:
+#     print('Одно число не является квадратом другого')
 
 # 2.Напишите программу, которая на вход принимает 5 чисел и находит максимальное из них.
 # 1, 4, 8, 7, 5 -> 8
 # 78, 55, 36, 90, 2 -> 90
 
+# num = 0
+# number = int(input('Введите число'))
+# max_num = number
+#
+# while num < 4:
+#     number = int(input('Введите число'))
+#     if number > max_num:
+#         max_num = number
+#     num +=1
+# print(max_num)
+
+# через список
+# sp = list()
+# for i in range(5):
+#     n = int(input('Введите число '))
+#     sp.append(n)
+# print('максимальное числo', max(sp))
+
 
 # 1.Напишите программу, которая будет на вход принимать число N и выводить числа от -N до N
 # 5 -> -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5
+# number_N = int(input('Введите число'))
+# for i in range(- number_N, number_N + 1):
+#     print(i, end=' ')
+
 
 # 2.Напишите программу, которая будет принимать на вход дробь и показывать первую цифру дробной части числа.
 # 6,78 -> 7
 # 5 -> нет
 # 0,34 -> 3
 
+# number = float(input('Введите число '))
+# print(int(number*10) % 10)
+
+# второй способ через строки
+
+# number = input('Введите число ').split('.')
+# print(number[1][0])
+
+
 # 3.Напишите программу, которая принимает на вход число и проверяет, кратно ли оно 5 и 10 или 15, но не 30.
+
+# number = int(input('Введите число '))
+# if number % 30 != 0 and (number % 10 == 0 or number % 15 == 0):
+#     print(True)
+# else:
+#     print(False)
+
+# 3.Напишите программу, выводит второе  число из трехзначного числа
+number = int(input('Введите число '))
+print(number//10 % 10)
+
