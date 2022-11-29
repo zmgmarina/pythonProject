@@ -65,6 +65,6 @@
 #     print(False)
 
 # 3.Напишите программу, выводит второе  число из трехзначного числа
-number = int(input('Введите число '))
-print(number//10 % 10)
+# number = int(input('Введите число '))
+# print(number//10 % 10)
 
