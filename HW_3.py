@@ -5,14 +5,14 @@
 # o [2, 3, 5, 9, 3] -> на нечётных позициях элементы 3 и 9, ответ: 12
 
 #
-# sp = [2, 3, 5, 9, 3]
-#
-# summa = 0
-#
-# for i in range(len(sp)):
-#     if i % 2 != 0:
-#         summa += sp[i]
-# print(summa)
+sp = [2, 3, 5, 9, 3]
+
+summa = 0
+
+for i in range(len(sp)):
+    if i % 2 != 0:
+        summa += sp[i]
+print(summa)
 
 
 
@@ -27,21 +27,21 @@
 #
 
 
-# from random import randint
-#
-# num = int(input('Введите размер списка '))
-# sp = []
-# sp_mul = []
-#
-# for i in range(num):
-#     sp.append(randint(0, 10))
-#
-# print(sp)
-#
-# for i in range((len(sp)+1) // 2):
-#     sp_mul.append(sp[i] * sp[-1 - i])
-#
-# print(sp_mul)
+from random import randint
+
+num = int(input('Введите размер списка '))
+sp = []
+sp_mul = []
+
+for i in range(num):
+    sp.append(randint(0, 10))
+
+print(sp)
+
+for i in range((len(sp)+1) // 2):
+    sp_mul.append(sp[i] * sp[-1 - i])
+
+print(sp_mul)
 
 
 
@@ -51,16 +51,16 @@
 #
 # o [1.1, 1.2, 3.1, 5, 10.01] => 0.19
 #
-# sp = [1.1, 1.2, 3.1, 5, 10.01]
-# sp2 = []
-#
-# for i in sp:
-#     x = i - int(i)
-#     x = round(x, 2)
-#     sp2.append(x)
-# print(sp2)
-#
-# print(max(sp2) - min(sp2))
+sp = [1.1, 1.2, 3.1, 5, 10.01]
+sp2 = []
+
+for i in sp:
+    x = i - int(i)
+    x = round(x, 2)
+    sp2.append(x)
+print(sp2)
+
+print(max(sp2) - min(sp2))
 
 
 
@@ -75,12 +75,12 @@
 #
 # o 2 -> 10
 
-# number = int(input('Введите десятичное число: '))
-# bi = ''
-# while number > 0:
-#     bi = str(number % 2) + bi
-#     number = number // 2
-# print(bi)
+number = int(input('Введите десятичное число: '))
+bi = ''
+while number > 0:
+    bi = str(number % 2) + bi
+    number = number // 2
+print(bi)
 
 #
 # 5. Задайте число. Составьте список чисел Фибоначчи, в том числе для отрицательных индексов.
@@ -89,19 +89,19 @@
 #
 # o для k = 8 список будет выглядеть так: [-21 ,13, -8, 5, −3, 2, −1, 1, 0, 1, 1, 2, 3, 5, 8, 13, 21]
 
-# n = 9
-# def fib(n):
-#     if n in [1, 2]:
-#         return 1
-#     else:
-#         return fib(n-1) + fib(n-2)
-#
-# sp = []
-#
-# for e in range(1, 9):
-#     sp.append(fib(e))
-# print(sp)
-#
-# for i in range(n):
-#     sp.insert(0, sp[1] - sp[0])
-# print(sp)
+n = 9
+def fib(n):
+    if n in [1, 2]:
+        return 1
+    else:
+        return fib(n-1) + fib(n-2)
+
+sp = []
+
+for e in range(1, 9):
+    sp.append(fib(e))
+print(sp)
+
+for i in range(n):
+    sp.insert(0, sp[1] - sp[0])
+print(sp)
