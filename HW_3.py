@@ -14,6 +14,10 @@ for i in range(len(sp)):
         summa += sp[i]
 print(summa)
 
+# решение со срезами
+
+sp = [2, 3, 5, 9, 3]
+print(sum(sp[1::2]))          # от первого индекса с шагом два
 
 
 #
@@ -38,7 +42,7 @@ for i in range(num):
 
 print(sp)
 
-for i in range((len(sp)+1) // 2):
+for i in range((len(sp)+1) // 2):  # перебираем список до середины ,  +1 к длине списка, для того чтобы и с четным и с нечетным кол-ом элементов работал код
     sp_mul.append(sp[i] * sp[-1 - i])
 
 print(sp_mul)
