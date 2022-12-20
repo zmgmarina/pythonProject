@@ -2,45 +2,45 @@
 # # Пример:
 # # o при $d = 0.001, π = 3.141.$ $10^{-1} ≤ d ≤10^{-10}$
 
-# import math
-# print(format(math.pi, '.4f'))
-#
-#
-# from math import pi
-# d = 0.001
-# i = 0
-# while d < 1:
-#     d *= 10
-#     i += 1
-# print(round(pi, i))
+import math
+print(format(math.pi, '.4f'))
+
+
+from math import pi
+d = 0.001
+i = 0
+while d < 1:
+    d *= 10
+    i += 1
+print(round(pi, i))
 
 
 # 2. Задайте натуральное число N. Напишите программу, которая составит список простых множителей числа N.
 
-# n = int(input("Введите число: "))
-# sp = []
-# i = 2
-#
-# while i <= n:
-#     if n % i == 0:
-#         sp.append(i)
-#         n //= i
-#         i = 2
-#     else:
-#         i += 1
-# print(sp)
+n = int(input("Введите число: "))
+sp = []
+i = 2
+
+while i <= n:
+    if n % i == 0:
+        sp.append(i)
+        n //= i
+        i = 2
+    else:
+        i += 1
+print(sp)
 
 
 # 3. Задайте последовательность чисел. Напишите программу, которая выведет список неповторяющихся элементов исходной последовательности.
 #
 # [1, 2, 2, 3, 4] -> [1, 3, 4]
 
-# list = [1, 2, 2, 3, 4]
-# new_list = []
-# for i in list:
-#     if list.count(i) == 1:
-#         new_list.append(i)
-# print(*new_list)
+list = [1, 2, 2, 3, 4]
+new_list = []
+for i in list:
+    if list.count(i) == 1:
+        new_list.append(i)
+print(*new_list)
 
 
 
