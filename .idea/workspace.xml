@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5f658b14-dce1-41a1-9dde-3a2b949c2f71" name="Changes" comment="HW_6.py_add">
+      <change afterPath="$PROJECT_DIR$/seminar_7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW_5.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HxYhmYDhDl4opybZo8SlvV0fC9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/UpGrade/PycharmProjects"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f658b14-dce1-41a1-9dde-3a2b949c2f71" name="Changes" comment="" />
+      <created>1669228322802</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669228322802</updated>
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1669228907720</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669228907720</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add seminar_1">
+      <created>1669235296108</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669235296108</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add HW">
+      <created>1669317405073</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669317405073</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Seminar1_Task">
+      <created>1669484714760</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669484714760</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Seminar1_Task">
+      <created>1669658229087</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669658229087</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Seminar1_add">
+      <created>1669748101744</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669748101744</updated>
+    </task>
+    <task id="LOCAL-00007" summary="HW_add">
+      <created>1670098206968</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670098206968</updated>
+    </task>
+    <task id="LOCAL-00008" summary="seminar_3.py_add">
+      <created>1670268102142</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670268102142</updated>
+    </task>
+    <task id="LOCAL-00009" summary="HW_3_add">
+      <created>1670435376844</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670435376844</updated>
+    </task>
+    <task id="LOCAL-00010" summary="HW_2_add">
+      <created>1670438316426</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670438316426</updated>
+    </task>
+    <task id="LOCAL-00011" summary="seminar_4.py_add">
+      <created>1670528827905</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670528827905</updated>
+    </task>
+    <task id="LOCAL-00012" summary="HW3.py_add">
+      <created>1670956246783</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670956246783</updated>
+    </task>
+    <task id="LOCAL-00013" summary="file.txt_add">
+      <created>1670956310054</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670956310054</updated>
+    </task>
+    <task id="LOCAL-00014" summary="task4.txt_add">
+      <created>1670956335750</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670956335750</updated>
+    </task>
+    <task id="LOCAL-00015" summary="task.txt_add">
+      <created>1670956351844</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1670956351844</updated>
+    </task>
+    <task id="LOCAL-00016" summary="HW_3_add">
+      <created>1671557997112</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1671557997112</updated>
+    </task>
+    <task id="LOCAL-00017" summary="HW_5_add">
+      <created>1671558024937</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1671558024937</updated>
+    </task>
+    <task id="LOCAL-00018" summary="seminar_6.py_add">
+      <created>1671565501398</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1671565501398</updated>
+    </task>
+    <task id="LOCAL-00019" summary="HW_6.py_add">
+      <created>1671731825539</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1671731825539</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="add seminar_1" />
+    <MESSAGE value="add HW" />
+    <MESSAGE value="Seminar1_Task" />
+    <MESSAGE value="Seminar1_add" />
+    <MESSAGE value="HW_add" />
+    <MESSAGE value="seminar_3.py_add" />
+    <MESSAGE value="HW_2_add" />
+    <MESSAGE value="seminar_4.py_add" />
+    <MESSAGE value="HW3.py_add" />
+    <MESSAGE value="file.txt_add" />
+    <MESSAGE value="task4.txt_add" />
+    <MESSAGE value="task.txt_add" />
+    <MESSAGE value="HW_3_add" />
+    <MESSAGE value="HW_5_add" />
+    <MESSAGE value="seminar_6.py_add" />
+    <MESSAGE value="HW_6.py_add" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW_6.py_add" />
+  </component>
+</project>
