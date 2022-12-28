@@ -1,10 +1,10 @@
 def show_menu():
     print("Выберите команду: \n 1 - показать всех сотрудников"
           " \n 2 - добавить сотрудника \n 3 - изменить данные сотрудника \n 4 - удалить сотрудника"
-          "\n 5 - импорт-экспорт  данных из csv в csv-файл \n 6 - импорт-экспорт данных из scv в txt-файл")
+          " \n 5 - импорт-экспорт  данных из csv в csv-файл \n 6 - импорт-экспорт данных из scv в txt-файл")
     try:
         select = int(input())
-        if not select in [1, 2, 3, 4]:
+        if not select in [1, 2, 3, 4, 5, 6]:
             raise ValueError
         return select
     except Exception:
