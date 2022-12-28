@@ -33,17 +33,17 @@ def main():
             model.delete(number)
             logging.info("Данные получены")
         elif select == 5:
-            logging.info("Выбран режим импорт-экспорт  данных из csv в csv-файл")
+            logging.info("Выбран режим - 5")
             sp = model.import_file()
             resulte = model.export_file(sp)
             view.view_result(sp)
-            logging.info("Получен результат")
+            logging.info("Данные получены")
         elif select == 6:
-            logging.info("Выбран режим импорт-экспорт данных из scv в txt-файл")
+            logging.info("Выбран режим - 6")
             sp = model.import_file()
             resulte = model.export_file_for_txt(sp)
             view.view_result(sp)
-            logging.info("Получен результат")
+            logging.info("Данные получены")
     except Exception:
         logging.warning("Ошибка ввода!")
 
