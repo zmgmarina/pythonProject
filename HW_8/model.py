@@ -43,3 +43,27 @@ def delete(number):
         for i in data:
             writer.writerow(i)
 
+
+def import_file():
+    sp = []
+    with open("data.csv", encoding='utf-8') as file:
+        reader_object = csv.reader(file, delimiter = ",")
+        for row in reader_object:
+            sp.append(row)
+    return sp
+
+
+def export_file(sp):
+    with open("file.csv", mode="w", encoding='utf-8') as w_file:
+        file_writer = csv.writer(w_file, delimiter = ",", lineterminator="\r")
+        for row in sp:
+            file_writer.writerow(row)
+
+
+def export_file_for_txt(sp):
+    with open('file.txt', 'w', encoding="utf-8") as data:
+        for i in sp:
+            for j in i:
+                data.write(str(j))
+                data.write('\n')
+            data.write('\n')
