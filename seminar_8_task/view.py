@@ -16,10 +16,17 @@ def show_employees(sp):
     for i, sotr in enumerate(sp, 1):
         print(i, *sotr)
 
+
 def add_employees():
     print("Введите фамилию, имя и телефон через пробел: ")
-    data = input().split()
-    return data
+    try:
+        data = input().split()
+        if not '' in data:
+            raise ValueError
+        return data
+    except Exception:
+        print("Error")
+
 
 def change_employees():
     print("Выберите строку для перезаписи: ")
@@ -27,6 +34,7 @@ def change_employees():
     print("Введите строку для записи: ")
     string = input().split()
     return change, string
+
 
 def delete():
     print("Введите номер строки для удаления: ")
