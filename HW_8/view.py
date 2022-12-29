@@ -20,13 +20,8 @@ def show_employees(sp):
 
 def add_employees():
     print("Введите фамилию, имя и телефон через пробел: ")
-    try:
-        data = input().split()
-        if not '' in data:
-            raise ValueError
-        return data
-    except Exception:
-        print("Error")
+    data = input().split()
+    return data
 
 
 def change_employees():
