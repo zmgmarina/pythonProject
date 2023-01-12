@@ -3,13 +3,13 @@ from token_1 import *
 from telegram import ReplyKeyboardMarkup, ReplyKeyboardRemove
 from telegram.ext import Updater, CommandHandler, ConversationHandler, Filters, MessageHandler
 
-reply_keyboard = [['/play', '/setting'],  # импортируется ReplyKeyboardMarkup, это клавиатура
+reply_keyboard = [['/play', '/setting'],  
                   ['/instruction', '/close'],
-                  ['/picture']] # создается в виде списка списков, здесь мы задаем строки и сколько кнопок-команд в каждой строке
+                  ['/picture']] 
 
 candies = 50
 step = 15
-markup = ReplyKeyboardMarkup(reply_keyboard, one_time_keyboard=False)  # создаем объект markup, в нее передаем наш список и one_time_keyboard=False(один раз показать клаву-Нет)это для того чтобы клава оставалась видимой пока мы ее не закроем
+markup = ReplyKeyboardMarkup(reply_keyboard, one_time_keyboard=False) 
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.DEBUG)
@@ -23,13 +23,12 @@ def start(update, context):
     name = f"{update.message.from_user.first_name} {update.message.from_user.last_name}"
     update.message.reply_text(
         f"Привет, {name}! Я бот, приглашаю тебя в игру Конфетки.",
-        reply_markup=markup   # это показывается клавиатура
-    )
+        reply_markup=markup   
 
 def close(update, context):
     update.message.reply_text(
         "Ok",
-        reply_markup=ReplyKeyboardRemove() # убрать клавиатуру
+        reply_markup=ReplyKeyboardRemove() 
     )
 
 def instruction(update, context):
@@ -46,10 +45,10 @@ def setting(update, context):
 
 def set_setting(update, context):
     global candies
-    global step      # чтобы видно было другим функциям
+    global step      
     candies, step = map(int, update.message.text.split())
     update.message.reply_text("Правила установлены, можно начать игру, нажмите кнопку /play!")
-    return ConversationHandler.END   #выход из диалога, если подчеркнут, нужно импортировать правой клавишей Show contex...
+    return ConversationHandler.END  
 
 
 def play(update, context):
